@@ -43,6 +43,7 @@ func main() {
 		log.Panicf("Unable to create onion service: %v", err)
 	}
 	defer onion.Close()
+	defer os.RemoveAll("./tor-dir")
 	fmt.Printf("Open Tor browser and navigate to http://%v.onion\n", onion.ID)
 	fmt.Println("Press enter to exit")
 	for c := range clientConns(onion) {
