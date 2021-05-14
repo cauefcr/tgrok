@@ -1,4 +1,4 @@
-# tgrok [![build](https://github.com/cauefcr/tgrok/actions/workflows/go.yml/badge.svg)](https://github.com/cauefcr/tgrok/actions/workflows/go.yml)
+# tgrok [![build](https://github.com/cauefcr/tgrok/actions/workflows/go.yml/badge.svg)](https://github.com/cauefcr/tgrok/actions/workflows/go.yml) [![goreleaser](https://github.com/cauefcr/tgrok/actions/workflows/main.yml/badge.svg)](https://github.com/cauefcr/tgrok/actions/workflows/main.yml)
 KISS ngrok clone using tor
 
 # Usage
